@@ -47,3 +47,6 @@ next-env.d.ts
 /stories
 /Logo.jpg
 *.zip
+
+# marketing assets (not part of the site)
+/moments-launch-reel.mp4
