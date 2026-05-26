@@ -1,0 +1,68 @@
+[
+  {
+    "id": "c-newborn",
+    "handle": "newborn-gifts",
+    "swatch": "linear-gradient(135deg, #f5ede3, #e8c9c1)",
+    "image": "/images/posts/18147108499421893.jpg",
+    "title": { "en": "Newborn Gifts", "ar": "هدايا المواليد" },
+    "description": {
+      "en": "Handmade keepsakes to welcome a little one.",
+      "ar": "تذكارات مصنوعة بحب لاستقبال مولودكم."
+    }
+  },
+  {
+    "id": "c-shower",
+    "handle": "baby-shower",
+    "swatch": "linear-gradient(135deg, #f5ede3, #a9b5a0)",
+    "image": "/images/posts/18063042317689271.jpg",
+    "title": { "en": "Baby Shower", "ar": "بيبي شاور" },
+    "description": {
+      "en": "Generous favors & setups for the celebration.",
+      "ar": "توزيعات وتجهيزات سخية للاحتفال."
+    }
+  },
+  {
+    "id": "c-chocolate",
+    "handle": "personalized-chocolates",
+    "swatch": "linear-gradient(135deg, #e8c9c1, #7c3a47)",
+    "image": "/images/posts/17884153638496654.jpg",
+    "title": { "en": "Personalized Chocolates", "ar": "شوكولاتة مخصّصة" },
+    "description": {
+      "en": "Named & monogrammed chocolate favors.",
+      "ar": "توزيعات شوكولاتة بالأسماء والأحرف."
+    }
+  },
+  {
+    "id": "c-keepsakes",
+    "handle": "keepsakes",
+    "swatch": "linear-gradient(135deg, #f5ede3, #c3a36b)",
+    "image": "/images/posts/17850425364438516.jpg",
+    "title": { "en": "Keepsakes & Snow Globes", "ar": "تذكارات وكرات ثلجية" },
+    "description": {
+      "en": "Snow globes, perfume bottles & monogrammed pieces.",
+      "ar": "كرات ثلجية وعطور وقطع مخصّصة بالأحرف."
+    }
+  },
+  {
+    "id": "c-welcome",
+    "handle": "welcome-baby",
+    "swatch": "linear-gradient(135deg, #eef3f8, #cfe0ec)",
+    "image": "/images/posts/17887409982356529.jpg",
+    "title": { "en": "Welcome Baby", "ar": "استقبال المولود" },
+    "description": {
+      "en": "Hospital door bows & announcement pieces.",
+      "ar": "زينة الباب وقطع الإعلان عن المولود."
+    }
+  },
+  {
+    "id": "c-ramadan",
+    "handle": "seasonal-ramadan",
+    "swatch": "linear-gradient(135deg, #a9b5a0, #c3a36b)",
+    "image": "/images/posts/18044506403231687.jpg",
+    "title": { "en": "Ramadan Collection", "ar": "مجموعة رمضان" },
+    "description": {
+      "en": "Seasonal gifting for Ramadan & Eid.",
+      "ar": "هدايا موسمية لرمضان والعيد."
+    }
+  }
+]

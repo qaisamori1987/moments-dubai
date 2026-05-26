@@ -1,26 +1,51 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ──────────────────────────────────────────────────────────────
+   Design tokens — "soft luxury" (see implementation plan §5)
+   Tailwind v4 reads @theme and generates utilities, e.g.
+     --color-blush     → bg-blush / text-blush / border-blush
+     --font-display    → font-display
+   ────────────────────────────────────────────────────────────── */
+@theme {
+  /* Base canvas */
+  --color-ivory: #fbf7f2;
+  --color-cream: #f5ede3;
+
+  /* Blush / rose accents */
+  --color-blush: #e8c9c1;
+  --color-rose: #d9a8a0;
+
+  /* Depth */
+  --color-mocha: #7a6a5f;
+  --color-burgundy: #7c3a47;
+
+  /* Metallic — sparingly, hairlines & detail only */
+  --color-gold: #c3a36b;
+
+  /* Fresh note for newborn ranges */
+  --color-sage: #a9b5a0;
+
+  /* Text — warm charcoal, never pure black */
+  --color-charcoal: #3a332e;
+
+  /* Type — next/font injects --font-cormorant / --font-inter / --font-tajawal */
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-arabic: var(--font-tajawal), system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+}
+
+/* Centered content rail using logical properties so RTL mirrors cleanly */
+.rail {
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  max-width: 80rem;
 }

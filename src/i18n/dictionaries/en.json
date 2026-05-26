@@ -1,0 +1,111 @@
+{
+  "brand": "Moments",
+  "nav": {
+    "shop": "Shop",
+    "build": "Create a Box",
+    "story": "Our Story",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Personalised luxury gifts for life's first moments",
+    "subtitle": "Newborn keepsakes, named baby favors & personalised chocolate — handmade with love and precision, delivered same-day across the UAE.",
+    "cta": "Explore gifts",
+    "ctaBuild": "Create your own box"
+  },
+  "collections": {
+    "title": "Curated for every occasion",
+    "subtitle": "Thoughtfully composed, beautifully delivered."
+  },
+  "delivery": {
+    "promise": "Same-day delivery across Dubai",
+    "note": "& all the Emirates · a personal gift message with every order."
+  },
+  "whatsapp": "Order on WhatsApp",
+  "whatsappPrefill": "Hello Moments ✨ I'd like to ask about a gift order.",
+  "languageName": "العربية",
+  "gallery": {
+    "title": "From our Instagram",
+    "cta": "Follow @moments.dubai"
+  },
+  "reels": {
+    "title": "Watch our reels"
+  },
+  "showcase": {
+    "eyebrow": "Moments Dubai",
+    "title": "Gifts that hold",
+    "titleAccent": "life's first moments"
+  },
+  "product": {
+    "back": "Back to gifts",
+    "quantity": "Quantity",
+    "deliveryDate": "Delivery date",
+    "deliverySlot": "Delivery time",
+    "slots": {
+      "morning": "Morning · 9am–12pm",
+      "afternoon": "Afternoon · 12–4pm",
+      "evening": "Evening · 4–8pm"
+    },
+    "leadNote": "Personalised items are made to order — please choose a date from tomorrow onward.",
+    "isGift": "Send as a gift",
+    "giftMessage": "Gift message",
+    "giftMessagePlaceholder": "Write a few heartfelt words…",
+    "recipientName": "Recipient's name",
+    "recipientPhone": "Recipient's phone (for delivery)",
+    "hidePrices": "Hide prices on the delivery note",
+    "send": "Send order on WhatsApp",
+    "allergenNote": "Contains milk. May contain nuts.",
+    "required": "Please complete the highlighted fields."
+  },
+  "order": {
+    "intro": "New gift order from the website ✨",
+    "product": "Gift",
+    "date": "Delivery date",
+    "slot": "Time",
+    "recipient": "Recipient",
+    "phone": "Recipient phone",
+    "message": "Gift message",
+    "hidePrices": "Please hide prices on the delivery note"
+  },
+  "filters": {
+    "title": "Filter gifts",
+    "occasion": "Occasion",
+    "recipient": "Recipient",
+    "price": "Price",
+    "all": "All",
+    "boy": "Boy",
+    "girl": "Girl",
+    "under": "Under AED 100",
+    "mid": "AED 100–300",
+    "over": "Over AED 300",
+    "empty": "No gifts match these filters."
+  },
+  "story": {
+    "kicker": "Our Story",
+    "title": "Made for the moments that matter",
+    "lead": "Moments began with a simple belief: that the gifts marking life's tenderest milestones should feel as personal as the people they're for.",
+    "p1": "Every piece is handmade in Dubai with love and precision. We put the baby's name at the heart of the design — because a gift should belong to someone, not just to an occasion.",
+    "p2": "From a first cuddle to a baby shower, from a hospital welcome to a quiet keepsake kept for years, we help you say the things that matter — beautifully, and on time.",
+    "valuesTitle": "What we believe",
+    "values": [
+      { "t": "Handmade with care", "d": "Each gift is crafted by hand, with attention to the smallest detail." },
+      { "t": "Personal by design", "d": "Names, colours and themes chosen for one little person." },
+      { "t": "Delivered with love", "d": "Same-day across Dubai, and to all the Emirates." }
+    ],
+    "gratitude": "To our community — thank you for your trust and your support. ❤️",
+    "cta": "Find the perfect gift"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's create something special",
+    "lead": "Tell us about the moment you're celebrating — we'll help you choose or personalise the perfect gift.",
+    "whatsappCta": "Chat on WhatsApp",
+    "callCta": "Call us",
+    "phoneLabel": "Phone & WhatsApp",
+    "phone": "052 651 6021",
+    "locationLabel": "Location",
+    "location": "Meydan, Dubai, United Arab Emirates",
+    "deliveryLabel": "Delivery",
+    "delivery": "Same-day in Dubai · across all the Emirates",
+    "followLabel": "Follow us"
+  }
+}
