@@ -81,6 +81,30 @@ export async function deleteProduct(formData: FormData): Promise<void> {
   redirect("/admin/products");
 }
 
+/** Persist a new product display order (ids in the desired order). */
+export async function reorderProducts(orderedIds: string[]): Promise<void> {
+  await requireAdmin();
+  const cat = await readCatalog();
+  const pos = new Map(orderedIds.map((id, i) => [id, i]));
+  cat.products.sort((a, b) => (pos.get(a.id) ?? 1e9) - (pos.get(b.id) ?? 1e9));
+  await commit(cat);
+}
+
+/** Add or remove a category (collection handle) on many products at once. */
+export async function bulkSetCategory(ids: string[], handle: string, mode: "add" | "remove"): Promise<void> {
+  await requireAdmin();
+  if (!handle || ids.length === 0) return;
+  const cat = await readCatalog();
+  const set = new Set(ids);
+  for (const p of cat.products) {
+    if (!set.has(p.id)) continue;
+    const has = p.collections.includes(handle);
+    if (mode === "add" && !has) p.collections.push(handle);
+    if (mode === "remove") p.collections = p.collections.filter((h) => h !== handle);
+  }
+  await commit(cat);
+}
+
 // ---- Collections (category sections) ---------------------------------------
 
 export async function saveCollection(formData: FormData): Promise<void> {
