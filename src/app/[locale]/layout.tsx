@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
     ? {
         title: "لحظات — هدايا مخصّصة وتوزيعات مواليد في دبي",
         description:
-          "هدايا فاخرة مخصّصة وتوزيعات مواليد وشوكولاتة بالأسماء، صُنعت بكل حب — توصيل في نفس اليوم لجميع أنحاء الإمارات.",
+          "هدايا فاخرة مخصّصة وتوزيعات مواليد وشوكولاتة بالأسماء، صُنعت بكل حب — توصيل لجميع أنحاء الإمارات.",
       }
     : {
         title: "Moments — Personalised Gifts & Baby Favors in Dubai",
         description:
-          "Personalised luxury gifts, newborn keepsakes and named chocolate favors, handmade with love and delivered same-day across the UAE.",
+          "Personalised luxury gifts, newborn keepsakes and named chocolate favors, handmade with love and delivered across the UAE.",
       };
 }
 

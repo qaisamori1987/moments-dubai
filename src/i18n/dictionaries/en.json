@@ -8,7 +8,7 @@
   },
   "hero": {
     "tagline": "Personalised luxury gifts for life's first moments",
-    "subtitle": "Newborn keepsakes, named baby favors & personalised chocolate — handmade with love and precision, delivered same-day across the UAE.",
+    "subtitle": "Newborn keepsakes, named baby favors & personalised chocolate — handmade with love and precision, delivered across the UAE.",
     "cta": "Explore gifts",
     "ctaBuild": "Create your own box"
   },
@@ -17,8 +17,8 @@
     "subtitle": "Thoughtfully composed, beautifully delivered."
   },
   "delivery": {
-    "promise": "Same-day delivery across Dubai",
-    "note": "& all the Emirates · a personal gift message with every order."
+    "promise": "Delivery across the UAE",
+    "note": "A personal gift message with every order."
   },
   "whatsapp": "Order on WhatsApp",
   "whatsappPrefill": "Hello Moments ✨ I'd like to ask about a gift order.",
@@ -89,7 +89,7 @@
     "values": [
       { "t": "Handmade with care", "d": "Each gift is crafted by hand, with attention to the smallest detail." },
       { "t": "Personal by design", "d": "Names, colours and themes chosen for one little person." },
-      { "t": "Delivered with love", "d": "Same-day across Dubai, and to all the Emirates." }
+      { "t": "Delivered with love", "d": "Across Dubai, and to all the Emirates." }
     ],
     "gratitude": "To our community — thank you for your trust and your support. ❤️",
     "cta": "Find the perfect gift"
@@ -105,7 +105,7 @@
     "locationLabel": "Location",
     "location": "Meydan, Dubai, United Arab Emirates",
     "deliveryLabel": "Delivery",
-    "delivery": "Same-day in Dubai · across all the Emirates",
+    "delivery": "In Dubai · across all the Emirates",
     "followLabel": "Follow us"
   }
 }
